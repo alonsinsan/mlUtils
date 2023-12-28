@@ -2,6 +2,7 @@
 Repo with tool to fit different ml models to data.
 
 ## input.json file
+* tipo: (str) "clasificación" o "regresión"  
 * modelos:
   * clasificación:
     * regresión logística:  
