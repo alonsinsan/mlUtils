@@ -1,0 +1,96 @@
+{
+    "modelos": {
+        "clasificación": {
+            "regresión logística": {
+                "entrenar": false,
+                "params": {
+
+                }
+            },
+            "árbol de decisión": {
+                "entrenar": false,
+                "params": {
+
+                }
+            },
+            "bosque aleatorio": {
+                "entrenar": false,
+                "params": {
+
+                }
+            },
+            "support vector machine":{
+                "entrenar": false,
+                "params": {
+
+                }
+            },
+            "red neuronal": {
+                "entrenar": false,
+                "params": {
+
+                }
+            },
+            "lazy classifier": {
+                "entrenar":false,
+                "params": {
+
+                }
+            }
+        },
+        "regresión":{
+            "regresión lineal":{
+                "entrenar": false,
+                "params": {
+
+                }
+            },
+            "árbol de decisión":{
+                "entrenar": false,
+                "params":{
+                    
+                }
+            },
+            "bosque aleatorio":{
+                "entrenar": false,
+                "params":{
+
+                }
+            },
+            "red neuronal":{
+                "entrenar": false,
+                "params": {
+
+                }
+            },
+            "lazy regressor": {
+                "entrenar": false,
+                "params": {
+
+                }
+            }
+        }
+    },
+    "métricas":{
+        "mse": false,
+        "mae": false,
+        "mape": false
+    },
+    "timeout_per_model": 1000,
+    "target": "",
+    "file_name": "",
+    "file_type": "",
+    "reading_parameters": {
+        
+    },
+    "variables": [],
+    "resampling": false,
+    "test_size": 0.3,
+    "validation_size": 0.1,
+    "train_size": 0.6,
+    "time_series": false,
+    "date_col": "",
+    "col_mapping": {
+
+    }
+}
